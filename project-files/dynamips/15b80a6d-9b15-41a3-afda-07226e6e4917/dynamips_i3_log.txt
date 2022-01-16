@@ -1,0 +1,34 @@
+Jan 17 02:46:13.933 HYPERVISOR: Release 0.2.17-x86/Windows (tag 2017072410)
+Jan 17 02:46:13.934 HYPERVISOR: Started on IP = localhost, TCP port = 63857.
+Jan 17 02:46:14.530 HYPERVISOR: exec_cmd: hypervisor version 
+Jan 17 02:46:14.530 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\jamso\GNS3\projects\ONG_CASE_STUDY\project-files\dynamips 
+Jan 17 02:46:14.531 GENERAL: working_dir=C:\Users\jamso\GNS3\projects\ONG_CASE_STUDY\project-files\dynamips
+Jan 17 02:46:14.531 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\jamso\GNS3\projects\ONG_CASE_STUDY\project-files\dynamips\b63f41de-0934-4328-adfa-c670c470fa8b 
+Jan 17 02:46:14.531 GENERAL: working_dir=C:\Users\jamso\GNS3\projects\ONG_CASE_STUDY\project-files\dynamips\b63f41de-0934-4328-adfa-c670c470fa8b
+Jan 17 02:46:14.531 HYPERVISOR: exec_cmd: vm create ANTIPOLO 2 c3725 
+Jan 17 02:46:14.532 VM: VM ANTIPOLO created.
+Jan 17 02:46:14.532 HYPERVISOR: exec_cmd: vm set_con_tcp_port ANTIPOLO 5001 
+Jan 17 02:46:14.532 HYPERVISOR: exec_cmd: c3725 get_mac_addr ANTIPOLO 
+Jan 17 02:46:14.533 HYPERVISOR: exec_cmd: vm set_disk0 ANTIPOLO 0 
+Jan 17 02:46:14.533 HYPERVISOR: exec_cmd: vm set_exec_area ANTIPOLO 64 
+Jan 17 02:46:14.534 HYPERVISOR: exec_cmd: vm get_status ANTIPOLO 
+Jan 17 02:46:14.534 HYPERVISOR: exec_cmd: vm set_idle_pc ANTIPOLO 0x60c09aa0 
+Jan 17 02:46:14.534 HYPERVISOR: exec_cmd: vm set_ios ANTIPOLO C:/Users/jamso/GNS3/images/IOS/c3725-adventerprisek9-mz.124-15.T14.image 
+Jan 17 02:46:14.535 HYPERVISOR: exec_cmd: c3725 set_mac_addr ANTIPOLO c202.5b74.0000 
+Jan 17 02:46:14.535 HYPERVISOR: exec_cmd: vm set_nvram ANTIPOLO 256 
+Jan 17 02:46:14.535 HYPERVISOR: exec_cmd: vm get_status ANTIPOLO 
+Jan 17 02:46:14.535 HYPERVISOR: exec_cmd: vm slot_add_binding ANTIPOLO 1 0 NM-1FE-TX 
+Jan 17 02:46:14.535 HYPERVISOR: exec_cmd: vm get_status ANTIPOLO 
+Jan 17 02:46:14.536 HYPERVISOR: exec_cmd: vm slot_add_binding ANTIPOLO 2 0 NM-4T 
+Jan 17 02:46:14.536 HYPERVISOR: exec_cmd: vm get_status ANTIPOLO 
+Jan 17 02:46:14.536 HYPERVISOR: exec_cmd: vm slot_add_binding ANTIPOLO 0 16 WIC-1T 
+Jan 17 02:46:14.536 HYPERVISOR: exec_cmd: vm get_status ANTIPOLO 
+Jan 17 02:46:14.536 HYPERVISOR: exec_cmd: vm slot_add_binding ANTIPOLO 0 32 WIC-2T 
+Jan 17 02:46:16.803 HYPERVISOR: exec_cmd: nio create_udp udp-cee2597a-706c-4a4a-8eef-d969032d577d 10010 127.0.0.1 10011 
+Jan 17 02:46:16.816 HYPERVISOR: exec_cmd: vm get_status ANTIPOLO 
+Jan 17 02:46:16.817 HYPERVISOR: exec_cmd: vm extract_config ANTIPOLO 
+Jan 17 02:46:16.817 HYPERVISOR: exec_cmd: vm delete ANTIPOLO 
+Jan 17 02:46:16.817 VM: VM ANTIPOLO destroyed.
+Jan 17 02:46:16.818 HYPERVISOR: exec_cmd: hypervisor stop 
+Jan 17 02:46:17.042 HYPERVISOR: Stopped.
+Jan 17 02:46:17.042 GENERAL: reset done.
